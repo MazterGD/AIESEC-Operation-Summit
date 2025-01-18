@@ -2,6 +2,7 @@ import React from 'react';
 import OgxChart from './OgxChart';
 import OgvChart from './OgvChart';
 import OgtChart from './OgtChart';
+import Timer from './Timer';
 
 function Home() {
   const kdu = {
@@ -32,6 +33,7 @@ function Home() {
     <main className="main-container">
       <div className="main-title">
         <h1>DASHBOARD</h1>
+        <Timer initialTime={18000} />
         <h3>Total Performance</h3>
       </div>
 
